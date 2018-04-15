@@ -1,0 +1,66 @@
+body {
+  background-color: #ccffff;
+}
+div {
+  background-color: #fff;
+  width: 47.5em;
+  border: 0.125em;
+  border-style: double;
+  border-color: blue;
+  padding: 0.625em;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: #330066;
+  font-style: italic;
+}
+h3 {
+  text-align: center;
+  color: #ff0000;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.sub-title {
+  text-align: center;
+  font-size: 1.250em;
+}
+.important-text {
+  background-color: yellow;
+  font-weight: bold;
+}
+.letter-spacing-text {
+  text-align: center;
+  letter-spacing: 0.313em;
+}
+.table-styled {
+  width: 18.750em;
+  border: 0.125em solid grey;
+  border-spacing: 0.125em;
+  border-collapse: separate;
+}
+.table-styled th {
+  color: #cc0000;
+  border: 0.063em solid grey;
+}
+.table-styled tbody tr:nth-child(odd) {
+  background-color: #999999;
+}
+.table-styled td {
+  border: 0.063em solid grey;
+}
+ul {
+  list-style-image: url('trillium.gif');
+}
+.with-first-letter::first-letter {
+  font-size: 3.125em;
+  color: #ff0000;
+  font-style: italic;
+  font-weight: bold;
+}
+.img {
+  margin-right: 1.250em;
+  width: 9.375em;
+  height: 8.750em;
+  float: left;
+}
